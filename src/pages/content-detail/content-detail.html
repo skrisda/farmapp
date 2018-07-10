@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>รายละเอียดคอร์ส </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-card *ngFor="let cd of cdetail">
+    <img src="http://sc.sci.tsu.ac.th/farmer/ionic_api/images/{{cd.images}}">
+    <ion-card-content>
+      <ion-card-title>
+        {{cd.title}}
+      </ion-card-title>
+      <p [innerHtml]="cd.description">
+          
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
