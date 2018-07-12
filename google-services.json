@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "999192121898",
+    "firebase_url": "https://farm-chat-5345c.firebaseio.com",
+    "project_id": "farm-chat-5345c",
+    "storage_bucket": "farm-chat-5345c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999192121898:android:568d692529d1e590",
+        "android_client_info": {
+          "package_name": "com.krisda.farmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999192121898-tq49nasdgsskb755131s83c534kv1g0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEJzQQR7fqDxB-EQzx2SKGlCT5_D6OxUc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

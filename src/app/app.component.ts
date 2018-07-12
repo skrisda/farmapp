@@ -2,8 +2,16 @@ import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import * as firebase from 'firebase';
+import { TabsPage} from '../pages/tabs/tabs';
 
-import { TabsPage } from '../pages/tabs/tabs';
+const config = {
+  apiKey: 'AIzaSyD4wexzt7uXMerfYJEds-zsml9oEsYmJVg',
+  authDomain: 'farm-chat-5345c.firebaseapp.com',
+  databaseURL: 'https://farm-chat-5345c.firebaseio.com/',
+  projectId: 'farm-chat-5345c',
+  storageBucket: 'gs://farm-chat-5345c.appspot.com',
+};
 
 @Component({
   templateUrl: 'app.html'
@@ -18,5 +26,6 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
     });
+    firebase.initializeApp(config);
   }
 }

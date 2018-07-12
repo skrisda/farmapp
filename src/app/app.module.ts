@@ -8,6 +8,10 @@ import { ContentsPage} from '../pages/contents/contents';
 import { HomePage } from '../pages/home/home';
 import { ContentDetailPage} from '../pages/content-detail/content-detail';
 import { TabsPage } from '../pages/tabs/tabs';
+import { ChatPage} from '../pages/chat/chat';
+import { AddRoomPage } from '../pages/add-room/add-room';
+import { RoomPage} from '../pages/room/room';
+import { SigninPage} from '../pages/signin/signin';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,7 +26,11 @@ import { Network} from '@ionic-native/network';
     ContentsPage,
     HomePage,
     ContentDetailPage,
-    TabsPage
+    TabsPage,
+    ChatPage,
+    AddRoomPage,
+    RoomPage,
+    SigninPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +44,11 @@ import { Network} from '@ionic-native/network';
     ContentsPage,
     HomePage,
     ContentDetailPage,
-    TabsPage
+    TabsPage,
+    ChatPage,
+    AddRoomPage,
+    RoomPage,
+    SigninPage
   ],
   providers: [
     StatusBar,
