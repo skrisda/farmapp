@@ -12,6 +12,8 @@ import { ChatPage} from '../pages/chat/chat';
 import { AddRoomPage } from '../pages/add-room/add-room';
 import { RoomPage} from '../pages/room/room';
 import { SigninPage} from '../pages/signin/signin';
+import { LoginPage} from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -30,7 +32,9 @@ import { Network} from '@ionic-native/network';
     ChatPage,
     AddRoomPage,
     RoomPage,
-    SigninPage
+    SigninPage,
+    LoginPage,
+    RegisterPage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,9 @@ import { Network} from '@ionic-native/network';
     ChatPage,
     AddRoomPage,
     RoomPage,
-    SigninPage
+    SigninPage,
+    LoginPage,
+    RegisterPage
   ],
   providers: [
     StatusBar,

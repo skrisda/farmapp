@@ -1,0 +1,27 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>ชาวนา 4.0</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label floating>ชื่อผู้ใช้</ion-label>
+    <ion-input type="text"[(ngModel)]="loginData.username"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>รหัสผ่าน</ion-label>
+    <ion-input type="password" [(ngModel)]="loginData.password"></ion-input>
+  </ion-item>
+  
+  <div padding>
+    <button ion-button round (click)="getLogin()">ลงชื่อเข้าใช้</button>
+  </div>
+  <div padding>
+    <button ion-button color="secondary" round (click)="register()">ลงทะเบียน</button>
+  </div>
+</ion-content>
