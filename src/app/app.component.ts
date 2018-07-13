@@ -6,11 +6,11 @@ import * as firebase from 'firebase';
 import { LoginPage} from '../pages/login/login';
 
 const config = {
-  apiKey: 'AIzaSyD4wexzt7uXMerfYJEds-zsml9oEsYmJVg',
-  authDomain: 'farm-chat-5345c.firebaseapp.com',
-  databaseURL: 'https://farm-chat-5345c.firebaseio.com/',
-  projectId: 'farm-chat-5345c',
-  storageBucket: 'gs://farm-chat-5345c.appspot.com',
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
 };
 
 @Component({
